@@ -1,6 +1,6 @@
 <%= form_for @user, :html => {:id => "form2"} do |f| %>
 	<%= f.label :age, 'How old are you?' %>
-	<%= f.select :age, options_for_select(age_options) %>
+	<%= f.select :age, options_for_select(age_options, "30-39") %>
 	<span class="checkimg" id="agecheck"><img src="/assets/check.png"></span>
 	<div class="message" id="age_error"></div>
 

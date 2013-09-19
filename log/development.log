@@ -47664,3 +47664,5 @@ Served asset /static_pages.js - 200 OK (0ms)
 
 Started GET "/assets/registration.js?body=1" for 127.0.0.1 at 2013-09-17 13:47:51 -0400
 Served asset /registration.js - 200 OK (0ms)
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/abhiramesh/rails_projects/lead_2/config/routes.rb:3)
