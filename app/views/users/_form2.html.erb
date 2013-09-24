@@ -25,6 +25,13 @@
 	</div>
 	<div class="message" id="attorney_error"></div>
 
+	<%= f.label :previous, 'Have you previously applied for disability benefits?' %>
+	<%= f.select :previous, options_for_select(previous_options) %>
+	<span class="checkimg" id="previouscheck"><img src="/assets/check.png"></span>
+	<div class="desc">
+	</div>
+	<div class="message" id="previous_error"></div>
+
 	<%= f.label :desc, 'Describe your disability and how it prevents you from working' %>
 	<%= f.text_area :desc %>
 	<span class="checkimg" id="desccheck"><img src="/assets/check.png"></span>
@@ -72,6 +79,9 @@
 	});
 	$('select#attorney').bind('click change',function() {
 		$('#attorneycheck img').show();
+	});
+	$('select#previous').bind('click change',function() {
+		$('#previouscheck img').show();
 	});
 
 </script>
