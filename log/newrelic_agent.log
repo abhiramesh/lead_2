@@ -1,0 +1,17 @@
+# Logfile created on 2013-09-26 10:39:53 -0400 by logger.rb/31641
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Starting the New Relic agent in "development" environment.
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Reading configuration from config/newrelic.yml
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Enabling the Request Sampler.
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Environment: development
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Dispatcher: webrick
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Application: Lead_2
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] WARN : Agent configured not to send data in this environment.
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Installing ActiveRecord instrumentation
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Installing Net instrumentation
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Installing deferred Rack instrumentation
+[09/26/13 10:39:53 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Installing Rails 3 Controller instrumentation
+[09/26/13 10:39:54 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[09/26/13 10:39:54 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Installing Rails3 Error instrumentation
+[09/26/13 10:39:54 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Finished instrumentation
+[09/26/13 10:39:56 -0400 levyvlan538.0969.wlan.wireless-pennnet.upenn.edu (1550)] INFO : Doing deferred dependency-detection before Rack startup
