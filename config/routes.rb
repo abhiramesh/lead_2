@@ -10,6 +10,7 @@ Mortgage3::Application.routes.draw do
 
   get '/thanks', to: 'static_pages#thanks'
   get '/privacy', to: 'static_pages#privacy'
+  get '/nj', to: 'static_pages#nj'
 
   get '/extrainfo', to: 'users#extra_info'
 
