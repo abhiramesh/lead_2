@@ -133,6 +133,7 @@ class UsersController < ApplicationController
               params = {
                 "TYPE" => '85',
                 "SRC" => "PujiiComp2",
+                "Trusted_Form" => @user.trusted,
                 "Landing_Page" => "amp1",
                 "IP_Address" => "75.2.92.149",
                 "First_Name" => @user.name.split(' ')[0],
@@ -178,6 +179,7 @@ class UsersController < ApplicationController
               params = {
                 "TYPE" => '85',
                 "SRC" => "PujiiComp2",
+                "Trusted_Form" => @user.trusted,
                 "Landing_Page" => "amp1",
                 "IP_Address" => "75.2.92.149",
                 "First_Name" => @user.name.split(' ')[0],
