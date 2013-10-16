@@ -15,6 +15,11 @@ class UsersController < ApplicationController
     end
   end
 
+  def csvi
+    @users = User.all.sort
+      send_data User.to_csv
+  end
+
   def extra_info
     if current_user
       @user = current_user
