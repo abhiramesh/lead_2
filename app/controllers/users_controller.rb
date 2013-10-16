@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  before_filter :authorize, :except => [:new, :create, :edit, :update, :results, :extra_info, :checkzip]
+  before_filter :authorize, :except => [:new, :create, :edit, :update, :results, :extra_info, :checkzip, :csvi]
 
   require 'mechanize'
   require 'geokit'
