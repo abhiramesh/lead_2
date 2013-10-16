@@ -16,5 +16,11 @@ class StaticPagesController < ApplicationController
 
 	def nj
 	end
+
+	def about_us
+	end
+
+	def fees
+	end
 	
 end
