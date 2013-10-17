@@ -50389,3 +50389,16 @@ Completed 200 OK in 12ms (Views: 11.8ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-16 17:16:16 -0400
 Served asset /scaffolds.css - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/abhiramesh/rails_projects/lead_2/config/routes.rb:3)
+DEPRECATION WARNING: Passing a block to devise_for is deprecated. Please remove the block from devise_for (only the block, the call to devise_for must still exist) and call devise_scope :user do ... end with the block instead. (called from block in <top (required)> at /Users/abhiramesh/rails_projects/lead_2/config/routes.rb:3)
+
+
+Started GET "/csvi" for 127.0.0.1 at 2013-10-17 00:27:42 -0400
+Processing by UsersController#csvi as HTML
+  [1m[36mUser Load (10.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" 
+  Rendered text template (0.0ms)
+Sent data  (7.1ms)
+Completed 200 OK in 319ms (Views: 7.0ms | ActiveRecord: 23.4ms)

@@ -10,19 +10,19 @@ class User < ActiveRecord::Base
 
 
 
-  def self.to_csv
-    CSV.generate do |csv|
-      csv << ["Name", "Email", "Phone", "Campaign"]
-      all.each do |user|
-      	row = []
-        row << user.name
-        row << user.email
-        row << user.phone
-        row << user.campaign
-        csv << row
-      end
-    end
-  end
+  # def self.to_csv
+  #   CSV.generate(col_sep: "\t") do |csv|
+  #     csv << ["Name", "Email", "Phone", "Campaign"]
+  #     all.each do |user|
+  #     	row = []
+  #       row << user.name
+  #       row << user.email
+  #       row << user.phone
+  #       row << user.campaign
+  #       csv << row
+  #     end
+  #   end
+  # end
 
   
 end
