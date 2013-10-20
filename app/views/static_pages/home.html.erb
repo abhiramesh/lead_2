@@ -51,6 +51,11 @@
 			<span class="checkimg" id="zipcheck"><img src="/assets/check.png"></span>
 			<div class="message" id="zip_error"></div>
 			<br>
+			<div id="consent">
+				<%= f.check_box :consent, {:checked => true}, "Yes", "No" %>
+				I agree to be contacted by phone or email according to these terms
+			</div>
+			<div class="message" id="consent_error"></div>
 			<div id="newsubmit1"></div>
 			<%= f.submit "Do I Qualify?", :class => "home-submit", :id => "submit1" %>
 		<% end %>
@@ -122,6 +127,14 @@
 			$('#lastnamecheck img').show();
 		}
 	});
+	$("#user_consent").change(function(){
+		if ($("#user_consent").is(':checked') == false) {		
+			$('#consent_error').empty().append("Please click the checkbox to consent");
+		}
+		else {
+			$('#consent_error').empty();
+		}
+	});
 	$('input#user_zipcode').blur(function(event){
 		$.ajax({
 			type: "POST",
@@ -179,6 +192,10 @@
 			event.preventDefault();
 			$('#lastname_error').empty().append("Please enter your last name");
 			$('#lastnamecheck img').hide();
+		}
+		if ($("#user_consent").is(':checked') == false) {
+			event.preventDefault();
+			$('#consent_error').empty().append("Please click the checkbox to consent");
 		}
 	});
 </script>

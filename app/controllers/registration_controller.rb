@@ -18,10 +18,13 @@ class RegistrationController < Devise::RegistrationsController
     if params["first_name"] && params["last_name"]
       name = params["first_name"] + " " + params["last_name"]
     end
+    if params["user"]["consent"]
+      consent = params["user"]["consent"]
+    end
     if params["xxTrustedFormCertUrl"]
       trusted = params["xxTrustedFormCertUrl"]
     end
-    @user = User.create(:ip => request.remote_ip, :campaign => campaign, :phone => phone, :email => email, :name => name, :zipcode => zipcode, :trusted => trusted)
+    @user = User.create(:ip => request.remote_ip, :campaign => campaign, :phone => phone, :email => email, :name => name, :zipcode => zipcode, :trusted => trusted, :consent => consent)
     sign_in @user
   end
     
