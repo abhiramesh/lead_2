@@ -57,6 +57,8 @@
 
 #consent{
   font-size: 10px;
+  position: relative;
+  z-index: 10000;
 }
 
 .arrow img {
