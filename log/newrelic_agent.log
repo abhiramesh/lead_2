@@ -237,3 +237,34 @@
 [10/23/13 00:40:51 -0400 hnt-upper173.apn.wireless-pennnet.upenn.edu (54952)] INFO : Installing Rails3 Error instrumentation
 [10/23/13 00:40:51 -0400 hnt-upper173.apn.wireless-pennnet.upenn.edu (54952)] INFO : Finished instrumentation
 [10/23/13 00:40:51 -0400 hnt-upper173.apn.wireless-pennnet.upenn.edu (54952)] INFO : Doing deferred dependency-detection before Rack startup
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Starting the New Relic agent in "development" environment.
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Reading configuration from config/newrelic.yml
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Enabling the Request Sampler.
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Environment: development
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Dispatcher: webrick
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Application: Lead_2
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] WARN : Agent configured not to send data in this environment.
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Installing ActiveRecord instrumentation
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Installing Net instrumentation
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Installing deferred Rack instrumentation
+[11/13/13 22:26:47 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Installing Rails 3 Controller instrumentation
+[11/13/13 22:26:48 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[11/13/13 22:26:48 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Installing Rails3 Error instrumentation
+[11/13/13 22:26:48 -0500 hnt20335.wireless-pennnet.upenn.edu (41545)] INFO : Finished instrumentation
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Starting the New Relic agent in "development" environment.
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : To prevent agent startup add a NEWRELIC_ENABLE=false environment variable or modify the "development" section of your newrelic.yml.
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Reading configuration from config/newrelic.yml
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Enabling the Request Sampler.
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Environment: development
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Dispatcher: webrick
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Application: Lead_2
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] WARN : Agent configured not to send data in this environment.
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Installing ActiveRecord instrumentation
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Installing Net instrumentation
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Installing deferred Rack instrumentation
+[11/13/13 22:28:17 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Installing Rails 3 Controller instrumentation
+[11/13/13 22:28:18 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Installing Rails 3.1/3.2 view instrumentation
+[11/13/13 22:28:18 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Installing Rails3 Error instrumentation
+[11/13/13 22:28:18 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Finished instrumentation
+[11/13/13 22:28:18 -0500 hnt20335.wireless-pennnet.upenn.edu (41665)] INFO : Doing deferred dependency-detection before Rack startup
